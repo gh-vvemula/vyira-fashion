@@ -7,7 +7,7 @@ export function Hero() {
     <section className="hero site-shell">
       <div className="hero__copy">
         <p className="eyebrow">Just in</p>
-        <h1>New-season staples for women and men.</h1>
+        <h1>Apparel-first wardrobes for women and men.</h1>
         <p className="hero__lede">
           Discover clean western fashion across dresses, tops, denim, shirts, trousers,
           outerwear, and activewear built for daily wear.
@@ -25,12 +25,12 @@ export function Hero() {
         <div className="hero-panel hero-panel--feature">
           <span className="hero-panel__eyebrow">Featured drop</span>
           <strong>Tailored layers</strong>
-          <span>Sharp silhouettes in neutral palettes.</span>
+          <span>Outerwear and structured separates for daily rotation.</span>
         </div>
         <div className="hero-panel hero-panel--secondary">
           <span className="hero-panel__eyebrow">Trending now</span>
           <strong>City denim</strong>
-          <span>Easy fits for weekday to weekend dressing.</span>
+          <span>Refined jeans and utility tops for weekday to weekend dressing.</span>
         </div>
         <div className="hero-stat-grid">
           {heroMetrics.map((metric) => (

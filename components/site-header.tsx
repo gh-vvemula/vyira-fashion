@@ -9,6 +9,8 @@ export function SiteHeader() {
         <div className="site-shell utility-bar__inner">
           <span>India</span>
           <div className="utility-links">
+            <a href="tel:+919030000876">Call: +91 90300 00876</a>
+            <span aria-hidden="true">|</span>
             <a href="#newsletter">Join Vyira</a>
             <span aria-hidden="true">|</span>
             <Link href="/new-in">New arrivals</Link>
@@ -34,8 +36,8 @@ export function SiteHeader() {
       </header>
       <div className="promo-strip">
         <div className="site-shell promo-strip__inner">
-          <strong>New season live</strong>
-          <span>Modern western fashion for women and men, curated for everyday rotation.</span>
+          <strong>Apparel only</strong>
+          <span>Dresses, tops, denim, shirts, trousers, outerwear, and activewear.</span>
         </div>
       </div>
     </>

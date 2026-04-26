@@ -74,6 +74,7 @@ button {
 
 .utility-links {
   gap: 0.6rem;
+  flex-wrap: wrap;
 }
 
 .topbar {
@@ -142,6 +143,7 @@ h3 {
   gap: 0.8rem;
   min-height: 3rem;
   font-size: 0.92rem;
+  text-align: center;
 }
 
 .hero,

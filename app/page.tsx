@@ -13,8 +13,8 @@ export default function HomePage() {
       <CategoryGrid audience="Men" />
       <EditorialBanner />
       <ProductGrid
-        title="Brand highlights"
-        subtitle="A launch assortment that balances wardrobe essentials with statement layers."
+        title="Apparel highlights"
+        subtitle="A launch assortment built around dresses, tailoring, denim, outerwear, and active motion essentials."
         products={getFeaturedProducts()}
       />
       <Newsletter />

@@ -7,8 +7,8 @@ export function SiteFooter() {
         <div>
           <p className="eyebrow">VYI&#x301;RA</p>
           <p className="footer-copy">
-            Legacy. Luxury. Limitless. Contemporary western fashion for women and men with a
-            polished luxury point of view.
+            Modern western apparel for women and men, built around dresses, tops, denim,
+            tailoring, outerwear, and activewear.
           </p>
         </div>
         <div>
@@ -22,8 +22,8 @@ export function SiteFooter() {
         <div>
           <p className="eyebrow">Contact</p>
           <div className="footer-links">
-            <a href="mailto:hello@vyira.co">hello@vyira.co</a>
-            <a href="tel:+910000000000">+91 00000 00000</a>
+            <a href="mailto:VYIRAINTERNATION@GMAIL.COM">VYIRAINTERNATION@GMAIL.COM</a>
+            <a href="tel:+919030000876">+91 90300 00876</a>
             <span>Shipping across India</span>
           </div>
         </div>
