@@ -14,7 +14,7 @@ export function CategoryGrid({ audience }: CategoryGridProps) {
       <div className="section-heading">
         <div>
           <p className="eyebrow">{audience}</p>
-          <h2>{audience} collections</h2>
+          <h2>Shop {audience.toLowerCase()}</h2>
         </div>
         <p>{audienceIntro[audience]}</p>
       </div>
@@ -28,7 +28,7 @@ export function CategoryGrid({ audience }: CategoryGridProps) {
             <p className="eyebrow">{collection.highlight}</p>
             <h3>{collection.title}</h3>
             <p>{collection.summary}</p>
-            <span>{collection.palette}</span>
+            <span>Shop now</span>
           </Link>
         ))}
       </div>

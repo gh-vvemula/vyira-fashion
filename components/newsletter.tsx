@@ -3,8 +3,8 @@ export function Newsletter() {
     <section className="site-shell section-space" id="newsletter">
       <div className="newsletter">
         <div>
-          <p className="eyebrow">Newsletter</p>
-          <h2>Receive launch drops, styling notes, and early access.</h2>
+          <p className="eyebrow">Member access</p>
+          <h2>Get first look access to new drops and restocks.</h2>
         </div>
         <form className="newsletter__form">
           <label className="sr-only" htmlFor="email">
@@ -12,7 +12,7 @@ export function Newsletter() {
           </label>
           <input id="email" type="email" placeholder="Enter your email" />
           <button type="submit" className="button button--primary">
-            Subscribe
+            Join now
           </button>
         </form>
       </div>

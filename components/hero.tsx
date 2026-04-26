@@ -6,32 +6,31 @@ export function Hero() {
   return (
     <section className="hero site-shell">
       <div className="hero__copy">
-        <p className="eyebrow">Vyira / Private Launch</p>
-        <div className="hero__brand">
-          <p className="hero__brand-mark">VYI&#x301;RA</p>
-          <p className="hero__brand-line">Legacy. Luxury. Limitless.</p>
-        </div>
-        <h1>Luxury western fashion with a timeless black-and-gold point of view.</h1>
+        <p className="eyebrow">Just in</p>
+        <h1>New-season staples for women and men.</h1>
         <p className="hero__lede">
-          Discover elevated women&apos;s and men&apos;s fashion across dresses, denim, shirts,
-          trousers, outerwear, activewear, footwear, bags, and accessories, presented with a more
-          refined and premium brand experience.
+          Discover clean western fashion across dresses, tops, denim, shirts, trousers,
+          outerwear, activewear, footwear, bags, and accessories built for daily wear.
         </p>
         <div className="hero__actions">
-          <Link href="/women" className="button button--primary">
-            Shop Women
+          <Link href="/new-in" className="button button--primary">
+            Shop New Arrivals
           </Link>
-          <Link href="/men" className="button button--ghost">
-            Shop Men
+          <Link href="/women" className="button button--ghost">
+            Women
           </Link>
         </div>
       </div>
       <div className="hero__visual" aria-hidden="true">
-        <div className="hero-card hero-card--tall">
-          <span>Midnight tailoring</span>
+        <div className="hero-panel hero-panel--feature">
+          <span className="hero-panel__eyebrow">Featured drop</span>
+          <strong>Tailored layers</strong>
+          <span>Sharp silhouettes in neutral palettes.</span>
         </div>
-        <div className="hero-card hero-card--wide">
-          <span>Gold standard</span>
+        <div className="hero-panel hero-panel--secondary">
+          <span className="hero-panel__eyebrow">Trending now</span>
+          <strong>City denim</strong>
+          <span>Easy fits for weekday to weekend dressing.</span>
         </div>
         <div className="hero-stat-grid">
           {heroMetrics.map((metric) => (

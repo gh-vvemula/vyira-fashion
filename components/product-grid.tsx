@@ -33,11 +33,11 @@ export function ProductGrid({ title, subtitle, products }: ProductGridProps) {
                   <h3>{product.name}</h3>
                 </div>
                 <p className="product-meta">
-                  {product.color} / {product.fit}
+                  {product.audience} / {product.color} / {product.fit}
                 </p>
                 <div className="product-card__footer">
                   <strong>{product.price}</strong>
-                  <Link href={`/collections/${product.collectionSlug}`}>View collection</Link>
+                  <Link href={`/collections/${product.collectionSlug}`}>Shop</Link>
                 </div>
               </div>
             </article>
