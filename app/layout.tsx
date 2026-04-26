@@ -8,15 +8,15 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://vyira-fashion.example"),
   title: {
-    default: "Vyira | Men and Women Fashion",
+    default: "Vyira | Legacy. Luxury. Limitless.",
     template: "%s | Vyira"
   },
   description:
-    "Vyira is a contemporary fashion brand for men and women featuring dresses, tops, denim, trousers, outerwear, activewear, footwear, bags, and accessories.",
+    "Vyira is a luxury western fashion brand for women and men featuring dresses, tops, denim, trousers, outerwear, activewear, footwear, bags, and accessories.",
   openGraph: {
-    title: "Vyira | Men and Women Fashion",
+    title: "Vyira | Legacy. Luxury. Limitless.",
     description:
-      "Modern wardrobes for women and men with clean design, scalable collections, and performance-first storefront architecture.",
+      "Luxury western wardrobes for women and men with a premium black-and-gold identity and scalable storefront architecture.",
     type: "website"
   }
 };

@@ -5,9 +5,10 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="site-shell site-footer__grid">
         <div>
-          <p className="eyebrow">Vyira</p>
+          <p className="eyebrow">VYI&#x301;RA</p>
           <p className="footer-copy">
-            Contemporary men&apos;s and women&apos;s fashion with a clean, elevated point of view.
+            Legacy. Luxury. Limitless. Contemporary western fashion for women and men with a
+            polished luxury point of view.
           </p>
         </div>
         <div>
