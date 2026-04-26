@@ -7,7 +7,11 @@ import { getProductsByAudience } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Women",
-  description: "Shop women&apos;s dresses, tops, denim, outerwear, and activewear."
+  description: "Shop women's dresses, tops, denim, outerwear, and activewear at Vyira.",
+  openGraph: {
+    title: "Women's Apparel | Vyira",
+    description: "Shop women's dresses, tops, denim, outerwear, and activewear at Vyira."
+  }
 };
 
 export default function WomenPage() {

@@ -11,6 +11,14 @@ export function SiteHeader() {
           <div className="utility-links">
             <a href="tel:+919030000876">Call: +91 90300 00876</a>
             <span aria-hidden="true">|</span>
+            <a
+              href="https://wa.me/919030000876?text=Hi%20Vyira%2C%20I%20want%20to%20shop%20your%20apparel%20collection."
+              target="_blank"
+              rel="noreferrer"
+            >
+              WhatsApp
+            </a>
+            <span aria-hidden="true">|</span>
             <a href="#newsletter">Join Vyira</a>
             <span aria-hidden="true">|</span>
             <Link href="/new-in">New arrivals</Link>

@@ -7,7 +7,11 @@ import { getProductsByAudience } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Men",
-  description: "Shop men&apos;s shirts, t-shirts, trousers, denim, outerwear, and activewear."
+  description: "Shop men's shirts, t-shirts, trousers, denim, outerwear, and activewear at Vyira.",
+  openGraph: {
+    title: "Men's Apparel | Vyira",
+    description: "Shop men's shirts, t-shirts, trousers, denim, outerwear, and activewear at Vyira."
+  }
 };
 
 export default function MenPage() {

@@ -6,7 +6,11 @@ import { getFeaturedProducts } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "New In",
-  description: "Explore the latest Vyira fashion arrivals for women and men."
+  description: "Explore the latest Vyira apparel arrivals for women and men.",
+  openGraph: {
+    title: "New In | Vyira",
+    description: "Explore the latest Vyira apparel arrivals for women and men."
+  }
 };
 
 export default function NewInPage() {

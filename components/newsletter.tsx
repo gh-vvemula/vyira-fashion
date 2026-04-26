@@ -6,7 +6,12 @@ export function Newsletter() {
           <p className="eyebrow">Member access</p>
           <h2>Get first look access to new drops and restocks.</h2>
         </div>
-        <form className="newsletter__form">
+        <form
+          className="newsletter__form"
+          action="mailto:vyirainternational@gmail.com"
+          method="post"
+          encType="text/plain"
+        >
           <label className="sr-only" htmlFor="email">
             Email address
           </label>

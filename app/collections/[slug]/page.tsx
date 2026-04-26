@@ -25,7 +25,11 @@ export async function generateMetadata({ params }: CollectionPageProps): Promise
 
   return {
     title: collection.title,
-    description: collection.summary
+    description: collection.summary,
+    openGraph: {
+      title: `${collection.title} | Vyira`,
+      description: collection.summary
+    }
   };
 }
 
