@@ -34,6 +34,9 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      - name: Remove exported route text payloads
+        run: find out -name 'index.txt' -delete
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
