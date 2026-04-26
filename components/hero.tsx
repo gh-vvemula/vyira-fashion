@@ -10,7 +10,7 @@ export function Hero() {
         <h1>New-season staples for women and men.</h1>
         <p className="hero__lede">
           Discover clean western fashion across dresses, tops, denim, shirts, trousers,
-          outerwear, activewear, footwear, bags, and accessories built for daily wear.
+          outerwear, and activewear built for daily wear.
         </p>
         <div className="hero__actions">
           <Link href="/new-in" className="button button--primary">

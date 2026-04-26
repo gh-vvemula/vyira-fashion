@@ -75,24 +75,6 @@ export const collections: Collection[] = [
     highlight: "Performance edit"
   },
   {
-    slug: "women-footwear",
-    title: "Footwear Edit",
-    audience: "Women",
-    eyebrow: "Women",
-    summary: "Minimal sneakers, sleek heels, and all-day flats for a modern rotation.",
-    palette: "Bone Slate",
-    highlight: "Grounded luxury"
-  },
-  {
-    slug: "women-bags",
-    title: "Bags & Carryalls",
-    audience: "Women",
-    eyebrow: "Women",
-    summary: "Compact crossbodies, work totes, and soft shoulder silhouettes built for pace.",
-    palette: "Caramel Noir",
-    highlight: "Everyday utility"
-  },
-  {
     slug: "men-shirts",
     title: "Precision Shirts",
     audience: "Men",
@@ -145,24 +127,6 @@ export const collections: Collection[] = [
     summary: "Technical separates and soft performance staples for training, travel, and recovery.",
     palette: "Steel Blue",
     highlight: "Training ready"
-  },
-  {
-    slug: "men-footwear",
-    title: "Footwear Lines",
-    audience: "Men",
-    eyebrow: "Men",
-    summary: "Low-profile sneakers, loafers, and utility soles that finish the outfit with ease.",
-    palette: "Stone Black",
-    highlight: "Foundation pair"
-  },
-  {
-    slug: "men-accessories",
-    title: "Accessories",
-    audience: "Men",
-    eyebrow: "Men",
-    summary: "Belts, caps, and leather essentials designed to sharpen everyday looks.",
-    palette: "Walnut Graphite",
-    highlight: "Final touch"
   }
 ];
 
@@ -218,26 +182,6 @@ export const products: Product[] = [
     price: "₹4,790",
     color: "Sage",
     fit: "Compression"
-  },
-  {
-    id: "vyr-wf-06",
-    name: "Low Profile Court Sneaker",
-    slug: "low-profile-court-sneaker",
-    audience: "Women",
-    collectionSlug: "women-footwear",
-    price: "₹5,290",
-    color: "Ivory",
-    fit: "True to size"
-  },
-  {
-    id: "vyr-wb-07",
-    name: "Carryall Shoulder Bag",
-    slug: "carryall-shoulder-bag",
-    audience: "Women",
-    collectionSlug: "women-bags",
-    price: "₹6,490",
-    color: "Tan",
-    fit: "One size"
   },
   {
     id: "vyr-ms-08",
@@ -299,33 +243,13 @@ export const products: Product[] = [
     price: "₹4,490",
     color: "Slate",
     fit: "Athletic"
-  },
-  {
-    id: "vyr-mf-14",
-    name: "Transit Leather Loafer",
-    slug: "transit-leather-loafer",
-    audience: "Men",
-    collectionSlug: "men-footwear",
-    price: "₹6,190",
-    color: "Espresso",
-    fit: "True to size"
-  },
-  {
-    id: "vyr-max-15",
-    name: "Essential Leather Belt",
-    slug: "essential-leather-belt",
-    audience: "Men",
-    collectionSlug: "men-accessories",
-    price: "₹2,490",
-    color: "Black",
-    fit: "Adjustable"
   }
 ];
 
 export const heroMetrics = [
   { value: "48h", label: "Fast dispatch across India" },
-  { value: "14", label: "Core fashion categories live" },
-  { value: "100%", label: "Western contemporary focus" }
+  { value: "11", label: "Core apparel categories live" },
+  { value: "Apparel", label: "No shoes, bags, or accessories" }
 ];
 
 export const audienceIntro = {

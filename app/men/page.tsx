@@ -7,7 +7,7 @@ import { getProductsByAudience } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Men",
-  description: "Shop men&apos;s shirts, t-shirts, trousers, denim, outerwear, activewear, footwear, and accessories."
+  description: "Shop men&apos;s shirts, t-shirts, trousers, denim, outerwear, and activewear."
 };
 
 export default function MenPage() {
@@ -16,7 +16,7 @@ export default function MenPage() {
       <PageHero
         eyebrow="Men"
         title="Sharp layers and everyday staples with modern restraint."
-        description="Discover shirts, t-shirts, trousers, denim, outerwear, activewear, footwear, and accessories designed for repeat wear."
+        description="Discover shirts, t-shirts, trousers, denim, outerwear, and activewear designed for repeat wear."
       />
       <CategoryGrid audience="Men" />
       <ProductGrid

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Vyira"
   },
   description:
-    "Vyira is a modern western fashion brand for women and men featuring dresses, tops, denim, trousers, outerwear, activewear, footwear, bags, and accessories.",
+    "Vyira is a modern western fashion brand for women and men featuring dresses, tops, denim, trousers, outerwear, and activewear.",
   openGraph: {
     title: "Vyira | Modern Western Fashion",
     description:
