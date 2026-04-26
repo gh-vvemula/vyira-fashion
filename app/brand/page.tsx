@@ -6,7 +6,7 @@ import { PageHero } from "@/components/page-hero";
 export const metadata: Metadata = {
   title: "Brand",
   description:
-    "Learn about Vyira, founder Vinay Vemula, Padmashali textile heritage, and the brand vision behind premium accessible apparel."
+    "Discover the Vyira founder story, Padmashali textile heritage, and the vision behind a premium, accessible, and sustainable fashion brand."
 };
 
 export default function BrandPage() {
@@ -14,8 +14,8 @@ export default function BrandPage() {
     <>
       <PageHero
         eyebrow="Brand"
-        title="Legacy, craftsmanship, and a long-term vision for modern apparel."
-        description="Discover the founder story, Padmashali textile roots, and the mission behind building Vyira as a premium, accessible, and globally respected apparel label."
+        title="Vyira was created to turn heritage into a modern fashion legacy."
+        description="Founded by Vinay Vemula, Vyira brings together Padmashali textile roots, 15 years of professional discipline, and a larger mission to build a premium, sustainable, globally respected apparel brand that stays within reach."
       />
       <BrandLegacy />
     </>
