@@ -1,0 +1,16 @@
+<svg width="560" height="420" viewBox="0 0 560 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="420" rx="36" fill="#D9CEC0"/>
+  <rect x="26" y="26" width="508" height="368" rx="24" fill="url(#g)"/>
+  <path d="M120 324C170 250 225 208 296 196C366 184 424 128 454 92" stroke="#F6E8C0" stroke-opacity=".8" stroke-width="2.5"/>
+  <text x="62" y="98" fill="#F6E8C0" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="5">VYÍRA</text>
+  <text x="62" y="136" fill="#E2D4B0" font-family="Avenir Next, Arial, sans-serif" font-size="18" letter-spacing="3">NEW IN</text>
+  <text x="62" y="332" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="28">Modern layers.</text>
+  <text x="62" y="364" fill="#EDE7DF" font-family="Avenir Next, Arial, sans-serif" font-size="18">Tailoring, denim, and launch edits.</text>
+  <defs>
+    <linearGradient id="g" x1="26" y1="26" x2="534" y2="394" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B312B"/>
+      <stop offset=".55" stop-color="#7F6858"/>
+      <stop offset="1" stop-color="#181513"/>
+    </linearGradient>
+  </defs>
+</svg>
