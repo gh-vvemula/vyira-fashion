@@ -23,6 +23,7 @@ export type Product = {
 };
 
 export const navigation = [
+  { href: "/brand", label: "Brand" },
   { href: "/new-in", label: "New In" },
   { href: "/women", label: "Women" },
   { href: "/men", label: "Men" }
