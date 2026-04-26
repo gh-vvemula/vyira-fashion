@@ -105,9 +105,10 @@ h3 {
 }
 
 .brand-mark__image {
-  width: clamp(160px, 18vw, 220px);
+  width: clamp(86px, 8vw, 118px);
   height: auto;
   display: block;
+  object-fit: contain;
 }
 
 .topnav,
@@ -907,6 +908,10 @@ h3 {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .brand-mark__image {
+    width: 84px;
   }
 
   .topbar__actions {

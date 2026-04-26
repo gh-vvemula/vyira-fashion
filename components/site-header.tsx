@@ -65,11 +65,12 @@ export function SiteHeader() {
       <header className="site-shell topbar">
         <Link href="/" className="brand-mark" aria-label="Vyira home">
           <Image
-            src="/brand/vyira-wordmark.svg"
+            src="/brand/vyira-logo.png"
             alt="Vyira"
             className="brand-mark__image"
-            width="220"
-            height="64"
+            width={1280}
+            height={1280}
+            priority
           />
         </Link>
         <nav className="topnav" aria-label="Primary">
