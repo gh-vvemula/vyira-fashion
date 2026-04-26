@@ -9,15 +9,6 @@ export function Hero() {
       <div className="hero__copy">
         <p className="eyebrow">Just in</p>
         <p className="hero__tagline">Legacy. Luxury. Limitless.</p>
-        <div className="hero__seal">
-          <Image
-            src="/brand/vyira-emblem.svg"
-            alt="Vyira emblem"
-            width={132}
-            height={132}
-            priority
-          />
-        </div>
         <h1>Apparel-first wardrobes for women and men.</h1>
         <p className="hero__lede">
           Discover clean western fashion across dresses, tops, denim, shirts, trousers,
@@ -34,25 +25,11 @@ export function Hero() {
       </div>
       <div className="hero__visual" aria-hidden="true">
         <div className="hero-panel hero-panel--feature">
-          <Image
-            src="/brand/hero-signature.svg"
-            alt=""
-            className="hero-panel__image"
-            fill
-            sizes="(max-width: 1080px) 100vw, 40vw"
-          />
           <span className="hero-panel__eyebrow">Featured drop</span>
           <strong>Tailored layers</strong>
           <span>Outerwear and structured separates for daily rotation.</span>
         </div>
         <div className="hero-panel hero-panel--secondary">
-          <Image
-            src="/brand/edit-newin.svg"
-            alt=""
-            className="hero-panel__image"
-            fill
-            sizes="(max-width: 1080px) 100vw, 20vw"
-          />
           <span className="hero-panel__eyebrow">Trending now</span>
           <strong>City denim</strong>
           <span>Refined jeans and utility tops for weekday to weekend dressing.</span>
