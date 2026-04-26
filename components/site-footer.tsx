@@ -20,6 +20,14 @@ export function SiteFooter() {
           </div>
         </div>
         <div>
+          <p className="eyebrow">Policies</p>
+          <div className="footer-links">
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/terms-conditions">Terms & Conditions</Link>
+            <Link href="/shipping-returns">Shipping & Returns</Link>
+          </div>
+        </div>
+        <div>
           <p className="eyebrow">Contact</p>
           <div className="footer-links">
             <a href="mailto:vyirainternational@gmail.com">vyirainternational@gmail.com</a>
