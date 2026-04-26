@@ -96,6 +96,11 @@ button {
   gap: 0.4rem;
 }
 
+.brand-mark__lockup {
+  display: grid;
+  gap: 0.1rem;
+}
+
 .brand-mark__word,
 h1,
 h2,
@@ -109,6 +114,13 @@ h3 {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink);
+}
+
+.brand-mark__tagline {
+  color: var(--muted);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
 }
 
 .topnav,
@@ -193,6 +205,14 @@ h1 {
   margin: 1.5rem 0 0;
   font-size: 1.05rem;
   line-height: 1.65;
+}
+
+.hero__tagline {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
 }
 
 .hero__actions {
@@ -449,7 +469,8 @@ h3 {
 .editorial-banner,
 .newsletter,
 .page-hero,
-.not-found {
+.not-found,
+.brand-legacy {
   border-radius: var(--radius-xl);
   background: var(--surface);
   padding: 2rem;
@@ -458,6 +479,26 @@ h3 {
 .editorial-banner {
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr) auto;
   align-items: center;
+}
+
+.brand-legacy__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.brand-legacy__feature {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #fff;
+  padding: 1.5rem;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.brand-legacy__feature p:not(.eyebrow) {
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .product-grid {
@@ -682,7 +723,8 @@ h3 {
   .editorial-banner,
   .newsletter,
   .site-footer__grid,
-  .home-story-grid {
+  .home-story-grid,
+  .brand-legacy__grid {
     grid-template-columns: 1fr;
   }
 

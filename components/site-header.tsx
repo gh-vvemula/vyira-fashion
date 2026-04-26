@@ -27,7 +27,10 @@ export function SiteHeader() {
       </div>
       <header className="site-shell topbar">
         <Link href="/" className="brand-mark" aria-label="Vyira home">
-          <span className="brand-mark__word">VYI&#x301;RA</span>
+          <span className="brand-mark__lockup">
+            <span className="brand-mark__word">VYI&#x301;RA</span>
+            <span className="brand-mark__tagline">Legacy. Luxury. Limitless.</span>
+          </span>
         </Link>
         <nav className="topnav" aria-label="Primary">
           {navigation.map((item) => (

@@ -1,3 +1,4 @@
+import { BrandLegacy } from "@/components/brand-legacy";
 import { ContactCta } from "@/components/contact-cta";
 import { CategoryGrid } from "@/components/category-grid";
 import { EditorialBanner } from "@/components/editorial-banner";
@@ -14,6 +15,7 @@ export default function HomePage() {
       <ContactCta />
       <Hero />
       <HomeStories />
+      <BrandLegacy />
       <CategoryGrid audience="Women" />
       <CategoryGrid audience="Men" />
       <EditorialBanner />

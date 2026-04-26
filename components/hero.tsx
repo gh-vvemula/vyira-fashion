@@ -7,6 +7,7 @@ export function Hero() {
     <section className="hero site-shell">
       <div className="hero__copy">
         <p className="eyebrow">Just in</p>
+        <p className="hero__tagline">Legacy. Luxury. Limitless.</p>
         <h1>Apparel-first wardrobes for women and men.</h1>
         <p className="hero__lede">
           Discover clean western fashion across dresses, tops, denim, shirts, trousers,
