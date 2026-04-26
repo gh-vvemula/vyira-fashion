@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { navigation } from "@/data/site";
@@ -64,14 +63,10 @@ export function SiteHeader() {
       </div>
       <header className="site-shell topbar">
         <Link href="/" className="brand-mark" aria-label="Vyira home">
-          <Image
-            src="/brand/vyira-logo.png"
-            alt="Vyira"
-            className="brand-mark__image"
-            width={1280}
-            height={1280}
-            priority
-          />
+          <span className="brand-mark__lockup">
+            <span className="brand-mark__word">VYI&#x301;RA</span>
+            <span className="brand-mark__tagline">Legacy. Luxury. Limitless.</span>
+          </span>
         </Link>
         <nav className="topnav" aria-label="Primary">
           {navigation.map((item) => (

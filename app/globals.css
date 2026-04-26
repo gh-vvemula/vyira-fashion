@@ -97,6 +97,11 @@ button {
   flex: 0 0 auto;
 }
 
+.brand-mark__lockup {
+  display: grid;
+  gap: 0.1rem;
+}
+
 .brand-mark__word,
 h1,
 h2,
@@ -104,11 +109,19 @@ h3 {
   font-family: "Iowan Old Style", "Palatino Linotype", serif;
 }
 
-.brand-mark__image {
-  width: clamp(86px, 8vw, 118px);
-  height: auto;
-  display: block;
-  object-fit: contain;
+.brand-mark__word {
+  display: inline-block;
+  font-size: clamp(1.3rem, 2vw, 1.9rem);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.brand-mark__tagline {
+  color: var(--muted);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
 }
 
 .topnav,
@@ -261,6 +274,17 @@ h1 {
   font-size: 0.82rem;
   letter-spacing: 0.24em;
   text-transform: uppercase;
+}
+
+.hero__seal {
+  margin: 0 0 1.35rem;
+}
+
+.hero__seal img {
+  width: 92px;
+  height: 92px;
+  border-radius: 22px;
+  display: block;
 }
 
 .hero__actions {
@@ -908,10 +932,6 @@ h3 {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .brand-mark__image {
-    width: 84px;
   }
 
   .topbar__actions {

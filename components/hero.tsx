@@ -9,6 +9,15 @@ export function Hero() {
       <div className="hero__copy">
         <p className="eyebrow">Just in</p>
         <p className="hero__tagline">Legacy. Luxury. Limitless.</p>
+        <div className="hero__seal">
+          <Image
+            src="/brand/vyira-emblem.svg"
+            alt="Vyira emblem"
+            width={132}
+            height={132}
+            priority
+          />
+        </div>
         <h1>Apparel-first wardrobes for women and men.</h1>
         <p className="hero__lede">
           Discover clean western fashion across dresses, tops, denim, shirts, trousers,
