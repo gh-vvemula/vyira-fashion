@@ -8,14 +8,24 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://vyira.com"),
   title: {
-    default: "Vyira | Modern Western Fashion",
+    default: "Vyira | Premium Fashion Brand for Women and Men",
     template: "%s | Vyira"
   },
   description:
-    "Vyira is a modern western fashion brand for women and men featuring dresses, tops, denim, trousers, outerwear, and activewear.",
+    "Vyira is a premium fashion brand for women and men, built on Padmashali textile heritage and designed around dresses, tops, denim, trousers, outerwear, and activewear.",
   referrer: "strict-origin-when-cross-origin",
+  alternates: {
+    canonical: "https://vyira.com"
+  },
   keywords: [
     "Vyira",
+    "Vyira fashion",
+    "Vyira brand",
+    "Vyira clothing",
+    "Vyira International",
+    "Vinay Vemula",
+    "Padmashali fashion brand",
+    "Padmashali textile heritage",
     "women's western wear",
     "men's western wear",
     "dresses",
@@ -27,18 +37,18 @@ export const metadata: Metadata = {
     "fashion India"
   ],
   openGraph: {
-    title: "Vyira | Modern Western Fashion",
+    title: "Vyira | Premium Fashion Brand for Women and Men",
     description:
-      "Modern wardrobes for women and men with a clean performance-inspired storefront and scalable architecture.",
+      "Discover Vyira, a premium apparel brand shaped by Padmashali textile heritage, modern style, and accessible luxury for women and men.",
     url: "https://vyira.com",
     siteName: "Vyira",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vyira | Modern Western Fashion",
+    title: "Vyira | Premium Fashion Brand for Women and Men",
     description:
-      "Modern wardrobes for women and men across dresses, tops, denim, trousers, outerwear, and activewear."
+      "Premium apparel for women and men by Vyira, built with heritage, modern style, and a responsible long-term vision."
   }
 };
 
@@ -56,12 +66,39 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Vyira",
-              url: "https://vyira.com",
-              email: "vyirainternational@gmail.com",
-              telephone: "+91 90300 00876",
-              sameAs: ["https://wa.me/919030000876"]
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://vyira.com/#organization",
+                  name: "Vyira",
+                  url: "https://vyira.com",
+                  description:
+                    "Vyira is a premium fashion brand for women and men, inspired by Padmashali textile heritage and built around modern, accessible luxury.",
+                  email: "vyirainternational@gmail.com",
+                  telephone: "+91 90300 00876",
+                  sameAs: ["https://wa.me/919030000876"]
+                },
+                {
+                  "@type": "Brand",
+                  "@id": "https://vyira.com/#brand",
+                  name: "Vyira",
+                  slogan: "Legacy. Luxury. Limitless.",
+                  description:
+                    "Vyira is an apparel brand for women and men that blends heritage, sustainability, and premium design at an accessible price.",
+                  brand: {
+                    "@id": "https://vyira.com/#organization"
+                  }
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://vyira.com/#website",
+                  name: "Vyira",
+                  url: "https://vyira.com",
+                  publisher: {
+                    "@id": "https://vyira.com/#organization"
+                  }
+                }
+              ]
             })
           }}
         />

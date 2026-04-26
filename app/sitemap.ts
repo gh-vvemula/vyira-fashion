@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const updatedAt = new Date();
   const staticRoutes = [
     "",
+    "/brand",
     "/women",
     "/men",
     "/new-in",
