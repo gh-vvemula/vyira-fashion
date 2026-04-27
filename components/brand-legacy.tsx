@@ -5,11 +5,11 @@ export function BrandLegacy() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Brand legacy</p>
-            <h2>A modern brand shaped by Telugu Padmashali roots.</h2>
+            <h2>A story of fabric, feeling, and quiet pride.</h2>
           </div>
           <p>
-            Vyira begins with a simple belief: good clothing should feel beautiful, effortless, and
-            right from the moment you wear it.
+            Vyira begins with a simple idea: what you wear should feel easy, refined, and natural
+            from the moment it touches your skin.
           </p>
         </div>
         <div className="brand-legacy__grid">
@@ -17,8 +17,8 @@ export function BrandLegacy() {
             <p className="eyebrow">Founder</p>
             <h3>Vinay Vemula</h3>
             <p>
-              After 15 years in IT, Vinay Vemula chose to build something closer to the heart.
-              Vyira comes from his desire to create clothing that looks refined, feels easy, and
+              After 15 years in IT, Vinay Vemula chose to build something closer to home. Vyira
+              comes from his desire to create clothing that looks clean, feels comfortable, and
               brings quiet confidence to everyday life.
             </p>
           </div>
@@ -26,18 +26,18 @@ export function BrandLegacy() {
             <p className="eyebrow">Textile roots</p>
             <h3>Telugu Padmashali heritage</h3>
             <p>
-              In a Telugu Padmashali family, fabric is never just fabric. It carries patience,
-              skill, and pride. That traditional respect for cloth and craftsmanship still guides
-              Vyira today.
+              In a Telugu Padmashali family, fabric is never just fabric. It carries care, skill,
+              and pride. That traditional respect for cloth and craftsmanship still guides Vyira
+              today.
             </p>
           </div>
           <div className="brand-legacy__feature">
-            <p className="eyebrow">Shared promise</p>
-            <h3>Made to connect</h3>
+            <p className="eyebrow">Promise</p>
+            <h3>Made to feel right</h3>
             <p>
               Vyira brings that spirit into modern design through clean silhouettes, soft comfort,
-              and thoughtful fabrics like bamboo, hemp, linen, Tencel, and organic cotton. The
-              goal is simple: when you wear Vyira, it should feel instantly good.
+              and thoughtful fabrics. The goal is simple: instant connection, great feel, and
+              elegance by nature.
             </p>
           </div>
         </div>
