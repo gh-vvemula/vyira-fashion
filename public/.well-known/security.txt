@@ -1,0 +1,4 @@
+Contact: mailto:vyirainternational@gmail.com
+Preferred-Languages: en
+Canonical: https://vyira.com/.well-known/security.txt
+Policy: https://vyira.com/help
