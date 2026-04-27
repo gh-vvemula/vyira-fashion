@@ -52,6 +52,12 @@ export const metadata: Metadata = {
   }
 };
 
+const socialProfiles = [
+  "https://www.instagram.com/vyiraofficial/",
+  "https://www.linkedin.com/company/vyira/",
+  "https://wa.me/919030000876"
+];
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
@@ -84,7 +90,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     "Vyira is a design-led fashion brand for women and men, inspired by Padmashali textile heritage and built around effortless elegance, premium finish, and sustainable fabrics.",
                   email: "vyirainternational@gmail.com",
                   telephone: "+91 90300 00876",
-                  sameAs: ["https://wa.me/919030000876"]
+                  sameAs: socialProfiles
                 },
                 {
                   "@type": "Brand",
@@ -93,6 +99,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   slogan: "Elegance by nature",
                   description:
                     "Vyira is an apparel brand for women and men that blends heritage, sustainability, premium design, and comfort-led materials at an accessible price.",
+                  sameAs: socialProfiles,
                   brand: {
                     "@id": "https://vyira.com/#organization"
                   }
