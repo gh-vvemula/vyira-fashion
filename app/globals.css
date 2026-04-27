@@ -99,9 +99,8 @@ button {
 }
 
 .brand-mark__icon {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.9rem;
+  width: 2.25rem;
+  height: auto;
   flex: 0 0 auto;
 }
 
