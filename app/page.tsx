@@ -11,17 +11,19 @@ import { ProductGrid } from "@/components/product-grid";
 import { getFeaturedProducts } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Vyira Fashion",
+  title: {
+    absolute: "VYÍRA"
+  },
   description:
     "Explore Vyira, a design-led fashion brand for women and men featuring dresses, tops, denim, trousers, outerwear, and activewear shaped by effortless elegance and sustainable premium fabrics.",
   openGraph: {
-    title: "Vyira | Elegance Made Effortless",
+    title: "VYÍRA | Elegance by nature",
     description:
       "Explore dresses, tops, denim, trousers, outerwear, and activewear at Vyira, a design-led brand built on heritage, premium finish, and sustainable fabrics."
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vyira | Elegance Made Effortless",
+    title: "VYÍRA | Elegance by nature",
     description:
       "Vyira brings together heritage, design-led apparel, and natural-feel fabrics for women and men."
   }
