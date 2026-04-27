@@ -47,8 +47,8 @@ export default function BrandPage() {
       />
       <PageHero
         eyebrow="Brand"
-        title="Vyira was created to turn Telugu Padmashali heritage into a modern story of elegance, comfort, and connection."
-        description="Founded by Vinay Vemula, Vyira brings together traditional respect for fabric, design discipline, and a material-first vision built around bamboo, hemp, linen, Tencel, and organic cotton with a premium finish."
+        title="Vyira is a modern brand shaped by Telugu Padmashali roots."
+        description="Founded by Vinay Vemula, Vyira brings together traditional respect for fabric, clean design, soft comfort, and thoughtful materials with a premium finish."
       />
       <BrandLegacy />
     </>
