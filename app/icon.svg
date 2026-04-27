@@ -1,11 +1,28 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="512" height="512" rx="96" fill="#050505"/>
+  <rect x="20" y="20" width="472" height="472" rx="148" fill="#F6F1E8"/>
+  <rect x="20" y="20" width="472" height="472" rx="148" stroke="#D8CFC0" stroke-width="8"/>
   <path
-    d="M112 150H178L232 324L286 150H352L260 398H204L112 150Z"
-    fill="#D7AB4D"
+    d="M132 154L226 369L320 154"
+    stroke="#345548"
+    stroke-width="28"
+    stroke-linecap="round"
+    stroke-linejoin="round"
   />
   <path
-    d="M310 150H378L328 258L390 398H321L286 313L250 398H182L245 258L195 150H264L286 203L310 150Z"
-    fill="#D7AB4D"
+    d="M252 212L252 362"
+    stroke="#345548"
+    stroke-width="24"
+    stroke-linecap="round"
+  />
+  <path
+    d="M252 286L332 196"
+    stroke="#345548"
+    stroke-width="24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M318 156C344 150 367 159 380 179C354 185 331 176 318 156Z"
+    fill="#6E8D74"
   />
 </svg>
