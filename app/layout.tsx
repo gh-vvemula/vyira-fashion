@@ -8,7 +8,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://vyira.com"),
   title: {
-    default: "Vyira | Elegance by nature",
+    default: "Vyira | elegance by nature",
     template: "%s | Vyira"
   },
   description:
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "fashion India"
   ],
   openGraph: {
-    title: "Vyira | Elegance by nature",
+    title: "Vyira | elegance by nature",
     description:
       "Discover Vyira, a design-led apparel brand shaped by Padmashali textile heritage, effortless elegance, and sustainable premium fabrics.",
     url: "https://vyira.com",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vyira | Elegance by nature",
+    title: "Vyira | elegance by nature",
     description:
       "Design-led apparel for women and men by Vyira, built with thoughtful materials, premium finish, and a responsible long-term vision."
   }
@@ -90,7 +90,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   "@type": "Brand",
                   "@id": "https://vyira.com/#brand",
                   name: "Vyira",
-                  slogan: "Elegance by nature",
+                  slogan: "elegance by nature",
                   description:
                     "Vyira is an apparel brand for women and men that blends heritage, sustainability, premium design, and comfort-led materials at an accessible price.",
                   brand: {
