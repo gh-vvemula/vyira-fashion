@@ -6,12 +6,12 @@ export function EditorialBanner() {
       <div className="editorial-banner">
         <div>
           <p className="eyebrow">Why Vyira</p>
-          <h2>Focused western apparel with a clean, scalable storefront.</h2>
+          <h2>Design-led apparel with sustainable fabrics and a premium finish.</h2>
         </div>
         <p>
-          Vyira intentionally focuses on contemporary categories and excludes saree, ethnic, and
-          traditional wear, along with shoes, bags, and accessories, to keep the assortment clear
-          and consistent.
+          Vyira focuses on contemporary apparel and natural-feel materials like bamboo, hemp,
+          linen, Tencel, and organic cotton so every drop feels breathable, elevated, and easier
+          to live in.
         </p>
         <Link href="/new-in" className="button button--primary">
           Explore new arrivals

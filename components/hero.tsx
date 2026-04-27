@@ -7,11 +7,12 @@ export function Hero() {
     <section className="hero site-shell">
       <div className="hero__copy">
         <p className="eyebrow">Just in</p>
-        <p className="hero__tagline">Legacy. Luxury. Limitless.</p>
-        <h1>Apparel-first wardrobes for women and men.</h1>
+        <p className="hero__tagline">Elegance by nature.</p>
+        <h1>Elegance made effortless for the way your collection should feel.</h1>
         <p className="hero__lede">
-          Discover clean western fashion across dresses, tops, denim, shirts, trousers,
-          outerwear, and activewear built for daily wear.
+          Design-led apparel for women and men, shaped with premium finish, soft structure, and
+          fabrics chosen for comfort on the body, from bamboo and hemp to linen, Tencel, and
+          organic cotton.
         </p>
         <div className="hero__actions">
           <Link href="/new-in" className="button button--primary">
@@ -25,13 +26,13 @@ export function Hero() {
       <div className="hero__visual" aria-hidden="true">
         <div className="hero-panel hero-panel--feature">
           <span className="hero-panel__eyebrow">Featured drop</span>
-          <strong>Tailored layers</strong>
-          <span>Outerwear and structured separates for daily rotation.</span>
+          <strong>Designed to feel lighter</strong>
+          <span>Easy silhouettes with a premium hand-feel, clean drape, and everyday polish.</span>
         </div>
         <div className="hero-panel hero-panel--secondary">
-          <span className="hero-panel__eyebrow">Trending now</span>
-          <strong>City denim</strong>
-          <span>Refined jeans and utility tops for weekday to weekend dressing.</span>
+          <span className="hero-panel__eyebrow">Fabric focus</span>
+          <strong>Soft-touch essentials</strong>
+          <span>Breathable blends built to feel smooth, skin-friendly, and effortless to wear.</span>
         </div>
         <div className="hero-stat-grid">
           {heroMetrics.map((metric) => (

@@ -5,12 +5,12 @@ export function BrandLegacy() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Brand legacy</p>
-            <h2>Born from heritage, built with purpose, and designed to travel across generations.</h2>
+            <h2>Born from heritage, refined through design, and shaped to feel effortless when worn.</h2>
           </div>
           <p>
-            Vyira is more than an apparel label. It is a story of roots, responsibility, and the
-            belief that premium fashion can honor legacy while remaining modern, accessible, and
-            deeply meaningful.
+            Vyira is built on the idea that real elegance should feel natural, easy, and lived in.
+            Every collection is meant to bring together thoughtful design, softer comfort, and a
+            premium finish that people can sense the moment they wear it.
           </p>
         </div>
         <div className="brand-legacy__grid">
@@ -19,8 +19,9 @@ export function BrandLegacy() {
             <h3>Vinay Vemula</h3>
             <p>
               After 15 years in IT, Vinay Vemula chose to build something closer to identity,
-              memory, and meaning. Vyira reflects his desire to pair modern execution with a brand
-              that feels personal, lasting, and worthy of the family values behind it.
+              fabric, and feeling. Vyira reflects his belief that design should not only look
+              elevated, it should also wear beautifully and leave people feeling composed,
+              comfortable, and confident.
             </p>
           </div>
           <div className="brand-legacy__feature">
@@ -29,17 +30,18 @@ export function BrandLegacy() {
             <p>
               Raised in a Padmashali family with a deep textile-oriented background, the brand is
               rooted in respect for fabric, craft, and the people who shape apparel with their
-              hands, discipline, and generational knowledge.
+              hands, discipline, and generational knowledge. That heritage guides a quieter kind
+              of luxury, one that begins with material, touch, and quality rather than excess.
             </p>
           </div>
           <div className="brand-legacy__feature">
-            <p className="eyebrow">Vision</p>
-            <h3>Luxury that carries purpose</h3>
+            <p className="eyebrow">Material focus</p>
+            <h3>Softer fabrics, premium finish</h3>
             <p>
-              Vyira is being built to represent the Padmashali community across the world through a
-              premium fashion brand shaped by sustainable fabrics, elevated materials, and
-              accessible pricing. The ambition is simple: create fashion that feels luxurious,
-              responsible, and powerful enough to carry a community story forward.
+              Vyira is being shaped around bamboo, hemp, linen, Tencel (Lyocell), and organic
+              cotton to create collections that feel breathable, skin-friendly, moisture-aware,
+              and exceptionally soft. The goal is simple: premium apparel with responsible fabric
+              choices and an elegant finish that feels effortless on the body.
             </p>
           </div>
         </div>

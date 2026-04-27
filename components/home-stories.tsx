@@ -4,22 +4,22 @@ const storyCards = [
   {
     href: "/collections/women-dresses",
     eyebrow: "Women / Dresses",
-    title: "Occasion dressing, stripped back.",
-    copy: "Fluid dresses and sharper day-to-evening silhouettes built for repeat wear.",
+    title: "Ease in every silhouette.",
+    copy: "Fluid dresses with a polished drape and a softer feel from morning plans to evening wear.",
     tone: "home-story--sand"
   },
   {
     href: "/collections/men-trousers",
     eyebrow: "Men / Trousers",
-    title: "Tailoring that works every day.",
-    copy: "Clean lines, travel-ready fabrics, and fits that move from desk to dinner.",
+    title: "Tailoring that feels lighter.",
+    copy: "Clean lines, easy movement, and refined fabrics that stay comfortable through the day.",
     tone: "home-story--slate"
   },
   {
     href: "/collections/women-tops",
     eyebrow: "Women / Tops",
-    title: "Soft structure, sharp finish.",
-    copy: "Refined tops and shirts that anchor a modern weekly wardrobe.",
+    title: "Soft structure, easy polish.",
+    copy: "Refined tops and shirts designed to sit softly on the body with a premium finish.",
     tone: "home-story--stone"
   }
 ];
@@ -37,11 +37,11 @@ export function HomeStories() {
       <div className="section-heading">
         <div>
           <p className="eyebrow">Featured edits</p>
-          <h2>Merchandised around real apparel needs.</h2>
+          <h2>Collections designed around feel, finish, and everyday elegance.</h2>
         </div>
         <p>
-          A cleaner homepage flow built around the categories customers actually shop first:
-          dresses, tops, denim, trousers, outerwear, and activewear.
+          Dresses, tops, denim, trousers, outerwear, and activewear shaped with comfort,
+          thoughtful design, and fabrics chosen to feel better with every wear.
         </p>
       </div>
       <div className="home-story-grid">

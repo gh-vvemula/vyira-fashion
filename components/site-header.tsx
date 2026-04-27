@@ -65,7 +65,7 @@ export function SiteHeader() {
         <Link href="/" className="brand-mark" aria-label="Vyira home">
           <span className="brand-mark__lockup">
             <span className="brand-mark__word">VYI&#x301;RA</span>
-            <span className="brand-mark__tagline">Legacy. Luxury. Limitless.</span>
+            <span className="brand-mark__tagline">Elegance Made Effortless</span>
           </span>
         </Link>
         <nav className="topnav" aria-label="Primary">
@@ -90,8 +90,8 @@ export function SiteHeader() {
       </header>
       <div className="promo-strip">
         <div className="site-shell promo-strip__inner">
-          <strong>Apparel only</strong>
-          <span>Dresses, tops, denim, shirts, trousers, outerwear, and activewear.</span>
+          <strong>Premium natural blends</strong>
+          <span>Bamboo, hemp, linen, Tencel, and organic cotton with a refined finish.</span>
         </div>
       </div>
     </>

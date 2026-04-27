@@ -13,17 +13,17 @@ import { getFeaturedProducts } from "@/data/site";
 export const metadata: Metadata = {
   title: "Vyira Fashion",
   description:
-    "Explore Vyira, a premium fashion brand for women and men featuring dresses, tops, denim, trousers, outerwear, and activewear shaped by heritage and modern style.",
+    "Explore Vyira, a design-led fashion brand for women and men featuring dresses, tops, denim, trousers, outerwear, and activewear shaped by effortless elegance and sustainable premium fabrics.",
   openGraph: {
-    title: "Vyira | Premium Fashion Brand for Women and Men",
+    title: "Vyira | Elegance Made Effortless",
     description:
-      "Explore dresses, tops, denim, trousers, outerwear, and activewear at Vyira, a premium brand built on heritage, modern style, and accessible luxury."
+      "Explore dresses, tops, denim, trousers, outerwear, and activewear at Vyira, a design-led brand built on heritage, premium finish, and sustainable fabrics."
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vyira | Premium Fashion Brand for Women and Men",
+    title: "Vyira | Elegance Made Effortless",
     description:
-      "Vyira brings together heritage, premium design, and modern apparel for women and men."
+      "Vyira brings together heritage, design-led apparel, and natural-feel fabrics for women and men."
   }
 };
 
@@ -38,7 +38,7 @@ export default function HomePage() {
       <EditorialBanner />
       <ProductGrid
         title="Apparel highlights"
-        subtitle="A launch assortment built around dresses, tailoring, denim, outerwear, and active motion essentials."
+        subtitle="A launch assortment built around dresses, tailoring, denim, outerwear, and comfort-led essentials with a premium finish."
         products={getFeaturedProducts()}
       />
       <EnquiryForm />

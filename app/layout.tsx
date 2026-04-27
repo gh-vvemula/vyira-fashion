@@ -8,11 +8,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://vyira.com"),
   title: {
-    default: "Vyira | Premium Fashion Brand for Women and Men",
+    default: "Vyira | Elegance Made Effortless",
     template: "%s | Vyira"
   },
   description:
-    "Vyira is a premium fashion brand for women and men, built on Padmashali textile heritage and designed around dresses, tops, denim, trousers, outerwear, and activewear.",
+    "Vyira is a design-led fashion brand for women and men, built on Padmashali textile heritage and focused on effortless elegance, premium finish, and sustainable fabrics.",
   referrer: "strict-origin-when-cross-origin",
   alternates: {
     canonical: "https://vyira.com"
@@ -37,18 +37,18 @@ export const metadata: Metadata = {
     "fashion India"
   ],
   openGraph: {
-    title: "Vyira | Premium Fashion Brand for Women and Men",
+    title: "Vyira | Elegance Made Effortless",
     description:
-      "Discover Vyira, a premium apparel brand shaped by Padmashali textile heritage, modern style, and accessible luxury for women and men.",
+      "Discover Vyira, a design-led apparel brand shaped by Padmashali textile heritage, effortless elegance, and sustainable premium fabrics.",
     url: "https://vyira.com",
     siteName: "Vyira",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vyira | Premium Fashion Brand for Women and Men",
+    title: "Vyira | Elegance Made Effortless",
     description:
-      "Premium apparel for women and men by Vyira, built with heritage, modern style, and a responsible long-term vision."
+      "Design-led apparel for women and men by Vyira, built with thoughtful materials, premium finish, and a responsible long-term vision."
   }
 };
 
@@ -81,7 +81,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   name: "Vyira",
                   url: "https://vyira.com",
                   description:
-                    "Vyira is a premium fashion brand for women and men, inspired by Padmashali textile heritage and built around modern, accessible luxury.",
+                    "Vyira is a design-led fashion brand for women and men, inspired by Padmashali textile heritage and built around effortless elegance, premium finish, and sustainable fabrics.",
                   email: "vyirainternational@gmail.com",
                   telephone: "+91 90300 00876",
                   sameAs: ["https://wa.me/919030000876"]
@@ -90,9 +90,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   "@type": "Brand",
                   "@id": "https://vyira.com/#brand",
                   name: "Vyira",
-                  slogan: "Legacy. Luxury. Limitless.",
+                  slogan: "Elegance Made Effortless",
                   description:
-                    "Vyira is an apparel brand for women and men that blends heritage, sustainability, and premium design at an accessible price.",
+                    "Vyira is an apparel brand for women and men that blends heritage, sustainability, premium design, and comfort-led materials at an accessible price.",
                   brand: {
                     "@id": "https://vyira.com/#organization"
                   }

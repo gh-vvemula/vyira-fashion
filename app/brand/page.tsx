@@ -6,14 +6,14 @@ import { PageHero } from "@/components/page-hero";
 export const metadata: Metadata = {
   title: "Brand",
   description:
-    "Discover the Vyira founder story, Padmashali textile heritage, and the vision behind a premium, accessible, and sustainable fashion brand.",
+    "Discover the Vyira founder story, Padmashali textile heritage, and the design-led vision behind effortless elegance, premium finish, and sustainable fabrics.",
   alternates: {
     canonical: "https://vyira.com/brand"
   },
   openGraph: {
     title: "Brand Story | Vyira",
     description:
-      "Learn how Vyira was founded by Vinay Vemula and inspired by Padmashali textile heritage to build a premium, sustainable fashion brand."
+      "Learn how Vyira was founded by Vinay Vemula and inspired by Padmashali textile heritage to build a design-led, sustainable apparel brand."
   }
 };
 
@@ -31,7 +31,7 @@ export default function BrandPage() {
             about: {
               "@type": "Brand",
               name: "Vyira",
-              slogan: "Legacy. Luxury. Limitless."
+              slogan: "Elegance Made Effortless"
             },
             mainEntity: {
               "@type": "Person",
@@ -47,8 +47,8 @@ export default function BrandPage() {
       />
       <PageHero
         eyebrow="Brand"
-        title="Vyira was created to turn heritage into a modern fashion legacy."
-        description="Founded by Vinay Vemula, Vyira brings together Padmashali textile roots, 15 years of professional discipline, and a larger mission to build a premium, sustainable, globally respected apparel brand that stays within reach."
+        title="Vyira was created to make elegance feel natural, effortless, and beautifully worn."
+        description="Founded by Vinay Vemula, Vyira brings together Padmashali textile roots, design discipline, and a material-first vision built around bamboo, hemp, linen, Tencel, and organic cotton with a premium finish."
       />
       <BrandLegacy />
     </>
