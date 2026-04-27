@@ -553,6 +553,32 @@ h3 {
   align-items: center;
 }
 
+.brand-legacy__intro {
+  align-items: start;
+}
+
+.brand-legacy__intro-copy {
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+}
+
+.brand-legacy__logo-frame {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top, rgba(112, 163, 60, 0.08), transparent 58%),
+    linear-gradient(180deg, #ffffff 0%, #f8f7f2 100%);
+  padding: 1rem;
+  box-shadow: 0 18px 40px rgba(19, 26, 21, 0.08);
+}
+
+.brand-legacy__logo {
+  display: block;
+  width: 9rem;
+  height: auto;
+}
+
 .brand-legacy__grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -882,6 +908,10 @@ h3 {
 }
 
 @media (max-width: 720px) {
+  .brand-legacy__logo {
+    width: 7rem;
+  }
+
   .utility-bar__inner,
   .topbar {
     flex-wrap: wrap;

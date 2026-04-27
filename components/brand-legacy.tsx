@@ -1,16 +1,29 @@
+import Image from "next/image";
+
 export function BrandLegacy() {
   return (
     <section className="site-shell section-space">
       <div className="brand-legacy">
-        <div className="section-heading">
+        <div className="section-heading brand-legacy__intro">
           <div>
             <p className="eyebrow">Brand legacy</p>
             <h2>A story of fabric, feeling, and quiet pride.</h2>
           </div>
-          <p>
-            Vyira begins with a simple idea: what you wear should feel easy, refined, and natural
-            from the moment it touches your skin.
-          </p>
+          <div className="brand-legacy__intro-copy">
+            <p>
+              Vyira begins with a simple idea: what you wear should feel easy, refined, and
+              natural from the moment it touches your skin.
+            </p>
+            <div className="brand-legacy__logo-frame" aria-hidden="true">
+              <Image
+                src="/brand/vy-final-logo.png"
+                alt=""
+                width={184}
+                height={184}
+                className="brand-legacy__logo"
+              />
+            </div>
+          </div>
         </div>
         <div className="brand-legacy__grid">
           <div className="brand-legacy__feature">
