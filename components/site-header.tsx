@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { navigation } from "@/data/site";
@@ -63,6 +64,13 @@ export function SiteHeader() {
       </div>
       <header className="site-shell topbar">
         <Link href="/" className="brand-mark" aria-label="Vyira home">
+          <Image
+            src="/brand/vy-monogram.svg"
+            alt=""
+            width={48}
+            height={48}
+            className="brand-mark__icon"
+          />
           <span className="brand-mark__lockup">
             <span className="brand-mark__word">VYI&#x301;RA</span>
             <span className="brand-mark__tagline">Elegance by nature</span>
