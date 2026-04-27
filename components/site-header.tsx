@@ -65,7 +65,7 @@ export function SiteHeader() {
         <Link href="/" className="brand-mark" aria-label="Vyira home">
           <span className="brand-mark__lockup">
             <span className="brand-mark__word">VYI&#x301;RA</span>
-            <span className="brand-mark__tagline">elegance by nature</span>
+            <span className="brand-mark__tagline">Elegance by nature</span>
           </span>
         </Link>
         <nav className="topnav" aria-label="Primary">

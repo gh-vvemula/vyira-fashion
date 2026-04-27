@@ -31,7 +31,7 @@ export default function BrandPage() {
             about: {
               "@type": "Brand",
               name: "Vyira",
-              slogan: "elegance by nature"
+              slogan: "Elegance by nature"
             },
             mainEntity: {
               "@type": "Person",
