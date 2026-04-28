@@ -26,7 +26,7 @@ export default function LoginPage() {
               storefront. Full login infrastructure is the next phase.
             </p>
             <div className="hero__actions">
-              <a href="mailto:vyirainternational@gmail.com" className="button button--primary">
+              <a href="mailto:founder@vyira.com" className="button button--primary">
                 Continue with Email
               </a>
               <Link href="/account/sign-up" className="button button--ghost">

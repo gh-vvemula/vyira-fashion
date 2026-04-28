@@ -8,7 +8,7 @@ export function Newsletter() {
         </div>
         <form
           className="newsletter__form"
-          action="mailto:vyirainternational@gmail.com"
+          action="mailto:founder@vyira.com"
           method="post"
           encType="text/plain"
         >

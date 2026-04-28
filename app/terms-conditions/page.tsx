@@ -26,7 +26,7 @@ export default function TermsConditionsPage() {
         <p>
           For any support related to an order or enquiry, contact
           {" "}
-          <a href="mailto:vyirainternational@gmail.com">vyirainternational@gmail.com</a>
+          <a href="mailto:founder@vyira.com">founder@vyira.com</a>
           {" "}
           or call
           {" "}

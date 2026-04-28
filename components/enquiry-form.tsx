@@ -26,7 +26,7 @@ export function EnquiryForm() {
       ].join("\n")
     );
 
-    window.location.href = `mailto:vyirainternational@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:founder@vyira.com?subject=${subject}&body=${body}`;
     setStatus("Your email app should open with a pre-filled enquiry.");
   }
 

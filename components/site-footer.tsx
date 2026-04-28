@@ -30,7 +30,7 @@ export function SiteFooter() {
         <div>
           <p className="eyebrow">Contact</p>
           <div className="footer-links">
-            <a href="mailto:vyirainternational@gmail.com">vyirainternational@gmail.com</a>
+            <a href="mailto:founder@vyira.com">founder@vyira.com</a>
             <a href="tel:+919030000876">+91 90300 00876</a>
             <span>Shipping across India</span>
           </div>

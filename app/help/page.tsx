@@ -42,10 +42,10 @@ export default function HelpPage() {
         </div>
         <div className="support-direct">
           <h3>Contact Vyira</h3>
-          <p>Email: vyirainternational@gmail.com</p>
+          <p>Email: founder@vyira.com</p>
           <p>Phone: +91 90300 00876</p>
           <div className="hero__actions">
-            <a href="mailto:vyirainternational@gmail.com" className="button button--primary">
+            <a href="mailto:founder@vyira.com" className="button button--primary">
               Email Support
             </a>
             <a

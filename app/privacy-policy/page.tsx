@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
         <p>
           If you want your information removed or updated, contact
           {" "}
-          <a href="mailto:vyirainternational@gmail.com">vyirainternational@gmail.com</a>.
+          <a href="mailto:founder@vyira.com">founder@vyira.com</a>.
         </p>
       </div>
     </section>

@@ -27,7 +27,7 @@ export default function SignUpPage() {
             </p>
             <div className="hero__actions">
               <a
-                href="mailto:vyirainternational@gmail.com?subject=Vyira%20Sign%20Up"
+                href="mailto:founder@vyira.com?subject=Vyira%20Sign%20Up"
                 className="button button--primary"
               >
                 Sign Up with Email

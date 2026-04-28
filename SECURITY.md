@@ -8,7 +8,7 @@ The default supported branch is `main`.
 
 If you discover a security issue affecting the Vyira website or repository, please report it privately instead of opening a public issue.
 
-- Email: `vyirainternational@gmail.com`
+- Email: `founder@vyira.com`
 - Subject line: `Vyira Security Report`
 
 Please include:

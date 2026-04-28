@@ -26,7 +26,7 @@ export default function ShippingReturnsPage() {
         <p>
           For shipping or returns support, email
           {" "}
-          <a href="mailto:vyirainternational@gmail.com">vyirainternational@gmail.com</a>
+          <a href="mailto:founder@vyira.com">founder@vyira.com</a>
           {" "}
           or message us on WhatsApp.
         </p>

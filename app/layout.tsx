@@ -88,7 +88,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   url: "https://vyira.com",
                   description:
                     "Vyira is a design-led fashion brand for women and men, inspired by Padmashali textile heritage and built around effortless elegance, premium finish, and sustainable fabrics.",
-                  email: "vyirainternational@gmail.com",
+                  email: "founder@vyira.com",
                   telephone: "+91 90300 00876",
                   sameAs: socialProfiles
                 },
