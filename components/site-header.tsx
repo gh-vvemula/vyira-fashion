@@ -55,7 +55,6 @@ export function SiteHeader() {
         <div className="site-shell utility-bar__inner">
           <div className="utility-market">
             <MarketSelector />
-            <span className="utility-market__note">Shipping worldwide to a select few markets</span>
           </div>
           <div className="utility-links">
             <Link href="/help">Help</Link>

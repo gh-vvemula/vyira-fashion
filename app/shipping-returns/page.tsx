@@ -12,8 +12,8 @@ export default function ShippingReturnsPage() {
       <h1>Shipping & Returns</h1>
       <div className="legal-copy">
         <p>
-          Vyira currently ships across India. Standard dispatch timelines are shared during order
-          confirmation and may vary by product availability and destination.
+          Vyira currently ships to a focused set of worldwide markets. Standard dispatch timelines
+          are shared during order confirmation and may vary by product availability and destination.
         </p>
         <p>
           Customers should review size and product details carefully before confirming an order.

@@ -15,7 +15,7 @@ const helpTopics = [
   },
   {
     title: "Shipping and delivery",
-    body: "Vyira is launching with dispatch support across India. Delivery timelines may vary as the brand grows."
+    body: "Vyira is launching with dispatch support across a focused set of worldwide markets. Delivery timelines may vary by destination."
   },
   {
     title: "Account and favorites",

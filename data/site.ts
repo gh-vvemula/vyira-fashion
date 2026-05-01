@@ -303,7 +303,7 @@ export const products: Product[] = [
 export const heroMetrics = [
   { value: "5", label: "Natural-feel fabric families" },
   { value: "11", label: "Core apparel categories" },
-  { value: "48h", label: "Fast dispatch support across India" }
+  { value: "48h", label: "Fast dispatch to selected worldwide markets" }
 ];
 
 export const audienceIntro = {

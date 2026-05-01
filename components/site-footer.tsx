@@ -7,8 +7,8 @@ export function SiteFooter() {
         <div>
           <p className="eyebrow">VYI&#x301;RA</p>
           <p className="footer-copy">
-            Modern western apparel for women and men, built around dresses, tops, denim,
-            tailoring, outerwear, and activewear.
+            Modern apparel for women and men, shaped by textile roots, natural-feel fabrics, and
+            the promise of elegance by nature.
           </p>
         </div>
         <div>
@@ -32,7 +32,7 @@ export function SiteFooter() {
           <div className="footer-links">
             <a href="mailto:founder@vyira.com">founder@vyira.com</a>
             <a href="tel:+919030000876">+91 90300 00876</a>
-            <span>Shipping across India</span>
+            <span>Shipping to selected worldwide markets</span>
           </div>
         </div>
       </div>
