@@ -1,12 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-
-const launchNotes = [
-  "Women + men edits",
-  "Natural-feel fabrics",
-  "Launch support across India"
-];
-
 export function ComingSoonHero() {
   return (
     <section className="coming-soon site-shell">
@@ -15,39 +6,28 @@ export function ComingSoonHero() {
         <span className="coming-soon__orb coming-soon__orb--right" />
       </div>
 
+      <div className="coming-soon__side coming-soon__side--left">Elegance by nature</div>
+      <div className="coming-soon__side coming-soon__side--right">Elegance by nature</div>
+
       <div className="coming-soon__content">
-        <p className="eyebrow">Vyira launch update</p>
-        <div className="coming-soon__logo-frame">
-          <Image
-            src="/brand/vyira-wordmark.svg"
-            alt="Vyira"
-            width={1320}
-            height={384}
-            priority
-            className="coming-soon__logo"
-          />
+        <p className="coming-soon__brand">VYI&#x301;RA</p>
+        <h1 className="coming-soon__title">
+          <span>Coming</span>
+          <span>Soon</span>
+        </h1>
+        <div className="coming-soon__divider" aria-hidden="true">
+          <span />
+          <i />
+          <span />
         </div>
-        <h1 className="coming-soon__title">Coming soon.</h1>
-        <p className="coming-soon__lede">
-          A sharper Vyira experience is on the way. We are preparing the launch space for premium
-          women’s and men’s fashion shaped by heritage, fluid tailoring, and effortless polish.
-        </p>
-
-        <div className="coming-soon__actions">
-          <Link href="#newsletter" className="button button--primary">
-            Get member access
-          </Link>
-          <Link href="/brand" className="button button--ghost">
-            Explore the brand
-          </Link>
+        <div className="coming-soon__summary">
+          <p>Premium natural blends</p>
+          <p>Elegance by nature</p>
         </div>
-
-        <div className="coming-soon__notes" aria-label="Launch highlights">
-          {launchNotes.map((note) => (
-            <span key={note} className="coming-soon__note">
-              {note}
-            </span>
-          ))}
+        <p className="coming-soon__domain">vyira.com</p>
+        <div className="coming-soon__caption">
+          Launching a refined first look for women and men without changing the world you already
+          built below.
         </div>
       </div>
     </section>
