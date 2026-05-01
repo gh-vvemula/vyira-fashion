@@ -24,7 +24,6 @@ export function ComingSoonHero() {
           <p>Premium natural blends</p>
           <p>Elegance by nature</p>
         </div>
-        <p className="coming-soon__domain">vyira.com</p>
         <div className="coming-soon__caption">
           Launching a refined first look for women and men without changing the world you already
           built below.
