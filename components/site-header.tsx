@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { MarketSelector } from "@/components/market-selector";
 import { navigation } from "@/data/site";
 
 function SearchIcon() {
@@ -52,7 +53,10 @@ export function SiteHeader() {
     <>
       <div className="utility-bar">
         <div className="site-shell utility-bar__inner">
-          <span>India</span>
+          <div className="utility-market">
+            <MarketSelector />
+            <span className="utility-market__note">Shipping worldwide to a select few markets</span>
+          </div>
           <div className="utility-links">
             <Link href="/help">Help</Link>
             <span aria-hidden="true">|</span>
@@ -65,7 +69,7 @@ export function SiteHeader() {
       <header className="site-shell topbar">
         <Link href="/" className="brand-mark" aria-label="Vyira home">
           <Image
-            src="/brand/vy-final-logo.png"
+            src="/brand/vy-final-logo-instagram-safe.png"
             alt=""
             width={56}
             height={90}
@@ -98,8 +102,8 @@ export function SiteHeader() {
       </header>
       <div className="promo-strip">
         <div className="site-shell promo-strip__inner">
-          <strong>Premium natural blends</strong>
-          <span>Bamboo, hemp, linen, Tencel, and organic cotton with a refined finish.</span>
+          <strong>Elegance by nature</strong>
+          <span>Premium natural-feel blends with bamboo, hemp, linen, Tencel, and organic cotton.</span>
         </div>
       </div>
     </>

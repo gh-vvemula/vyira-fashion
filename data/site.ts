@@ -22,11 +22,64 @@ export type Product = {
   badge?: string;
 };
 
+export type ShippingMarket = {
+  code: string;
+  country: string;
+  flag: string;
+  language: string;
+  note: string;
+};
+
 export const navigation = [
   { href: "/brand", label: "Brand" },
   { href: "/new-in", label: "New In" },
   { href: "/women", label: "Women" },
   { href: "/men", label: "Men" }
+];
+
+export const shippingMarkets: ShippingMarket[] = [
+  {
+    code: "IN",
+    country: "India",
+    flag: "🇮🇳",
+    language: "English",
+    note: "Primary shipping market"
+  },
+  {
+    code: "AE",
+    country: "United Arab Emirates",
+    flag: "🇦🇪",
+    language: "English",
+    note: "Easy express shipping"
+  },
+  {
+    code: "SG",
+    country: "Singapore",
+    flag: "🇸🇬",
+    language: "English",
+    note: "Fast urban delivery routes"
+  },
+  {
+    code: "GB",
+    country: "United Kingdom",
+    flag: "🇬🇧",
+    language: "English",
+    note: "Selected worldwide shipping"
+  },
+  {
+    code: "US",
+    country: "United States",
+    flag: "🇺🇸",
+    language: "English",
+    note: "Selected worldwide shipping"
+  },
+  {
+    code: "AU",
+    country: "Australia",
+    flag: "🇦🇺",
+    language: "English",
+    note: "Selected worldwide shipping"
+  }
 ];
 
 export const collections: Collection[] = [
@@ -248,14 +301,14 @@ export const products: Product[] = [
 ];
 
 export const heroMetrics = [
-  { value: "48h", label: "Fast dispatch across India" },
-  { value: "11", label: "Core apparel categories live" },
-  { value: "Apparel", label: "No shoes, bags, or accessories" }
+  { value: "5", label: "Natural-feel fabric families" },
+  { value: "11", label: "Core apparel categories" },
+  { value: "48h", label: "Fast dispatch support across India" }
 ];
 
 export const audienceIntro = {
-  Women: "Polished essentials for movement, work, weekends, and evening plans.",
-  Men: "Understated staples and sharp layers with modern tailoring at the core."
+  Women: "Clean dresses, soft structure, and refined layers for days that shift from work to evening.",
+  Men: "Understated staples, sharp shirts, and easy layers with modern tailoring at the core."
 };
 
 export function getCollectionsByAudience(audience: Audience) {
