@@ -754,6 +754,119 @@ h3 {
   color: var(--muted);
 }
 
+.coming-soon {
+  position: relative;
+  min-height: min(860px, calc(100vh - 160px));
+  padding: 4rem 0 3rem;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.coming-soon__atmosphere {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.coming-soon__orb {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(18px);
+  opacity: 0.75;
+}
+
+.coming-soon__orb--left {
+  width: 22rem;
+  height: 22rem;
+  left: -4rem;
+  top: 3rem;
+  background: radial-gradient(circle, rgba(217, 177, 93, 0.28), rgba(217, 177, 93, 0));
+}
+
+.coming-soon__orb--right {
+  width: 28rem;
+  height: 28rem;
+  right: -6rem;
+  bottom: 0;
+  background: radial-gradient(circle, rgba(59, 43, 17, 0.18), rgba(59, 43, 17, 0));
+}
+
+.coming-soon__content {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 70rem);
+  padding: 3.25rem;
+  border-radius: 40px;
+  border: 1px solid rgba(59, 43, 17, 0.12);
+  background:
+    linear-gradient(135deg, rgba(255, 250, 241, 0.92), rgba(255, 255, 255, 0.98)),
+    #fff;
+  box-shadow: 0 28px 80px rgba(17, 17, 17, 0.08);
+  text-align: center;
+}
+
+.coming-soon__logo-frame {
+  margin: 0 auto 1.8rem;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border-radius: 38px;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.22), transparent 56%),
+    linear-gradient(135deg, #050505, #16110b 52%, #2f2517);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    0 24px 56px rgba(17, 17, 17, 0.22);
+}
+
+.coming-soon__logo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.coming-soon__title {
+  margin: 0 auto 1rem;
+  max-width: none;
+  font-size: clamp(4rem, 9vw, 8.2rem);
+  letter-spacing: -0.05em;
+}
+
+.coming-soon__lede {
+  max-width: 44rem;
+  margin: 0 auto;
+  color: #4d4a46;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.coming-soon__actions,
+.coming-soon__notes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.coming-soon__actions {
+  margin-top: 2rem;
+}
+
+.coming-soon__notes {
+  margin-top: 1.5rem;
+}
+
+.coming-soon__note {
+  padding: 0.8rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(59, 43, 17, 0.12);
+  background: rgba(255, 255, 255, 0.86);
+  color: #4d4a46;
+  font-size: 0.92rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .site-footer__grid {
   grid-template-columns: 1.1fr 0.7fr 0.9fr 0.9fr;
   padding-top: 1.5rem;
@@ -884,6 +997,7 @@ h3 {
 
 @media (max-width: 1080px) {
   .hero,
+  .coming-soon,
   .section-heading,
   .editorial-banner,
   .newsletter,
@@ -938,6 +1052,24 @@ h3 {
   .hero {
     min-height: auto;
     padding-top: 1rem;
+  }
+
+  .coming-soon {
+    min-height: auto;
+    padding-top: 2rem;
+  }
+
+  .coming-soon__content {
+    padding: 2rem 1.3rem;
+    border-radius: 28px;
+  }
+
+  .coming-soon__logo-frame {
+    border-radius: 26px;
+  }
+
+  .coming-soon__title {
+    font-size: clamp(3rem, 16vw, 5rem);
   }
 
   .hero__visual,
